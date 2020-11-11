@@ -19,9 +19,7 @@ Tecnologias utilizadas neste projeto.
 
 ## Atenção
 
-Para o sistema funcionar é necessário colocar a senha do banco no arquivo appsettings.json(2° linha), caso você utilize o Mysql.
- 
-##
+Para o sistema funcionar é necessário colocar a senha do banco de dados no arquivo appsettings.json(3° linha), caso você utilize o Mysql.
  
 ### 1 - Register
 ![Register Screen](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/cadastro.PNG)
@@ -54,19 +52,14 @@ Para o sistema funcionar é necessário colocar a senha do banco no arquivo apps
 
 ## Features
  
-   - Register expenses
-   - Change expenses
-   - Delete expenses
-   - Consult expenses
-   - Add fields
-   - Delete fields
-   - Register Users
-   - Log In Users
-   - Contact with support
+   - Registro de Clientes
+   - Alteração de Clientes
+   - Exclusão de Clientes
+   - Consulta de Clientes
  
 ## Links
  
-  - Repository: https://github.com/LucasLBB/Controle-Gastos
+  - Repository: https://github.com/LucasLBB/API-CRUD-CLIENTES
 
  
 ## Author
