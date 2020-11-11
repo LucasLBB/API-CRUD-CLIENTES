@@ -46,7 +46,7 @@ Para utilizar a API é necessário o Swagger ou Postman para realizar as requisi
 
 * Para alterar um cliente é só ir em PUT /api/Clientes/{id} e informar o id no campo e também no formato Json.
 
-* E para deletar um cliente é dó ir em DELETE /api/Clientes/{id} e informar o id do cliente que deseja excluir.
+* E para deletar um cliente é dó ir em DELETE /api/Clientes/{id} e informar o ID do cliente que deseja excluir.
 
 *Caso possua alguma dificuldade em utilizar, fique tranquilo, é só entrar contato que eu irei ter o imenso prazer em te ajudar!!!
 
