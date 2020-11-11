@@ -2,7 +2,7 @@
  
 Está é uma WEB API ASP.NET CORE, que realiza o CRUD de clientes.
  
-## Technology 
+## Tecnologia
  
 Tecnologias utilizadas neste projeto.
  
@@ -13,9 +13,11 @@ Tecnologias utilizadas neste projeto.
 * CSS3
 * HTML5
 
-## Services Used
+## Serviços Usados
  
 * GitHub
+* Postman
+* Swagger
 
 ## Atenção
 
@@ -50,7 +52,7 @@ Para o sistema funcionar é necessário colocar a senha do banco de dados no arq
 ![Contact](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/contato.PNG)
 
 
-## Features
+## Características
  
    - Registro de Clientes
    - Alteração de Clientes
@@ -62,12 +64,12 @@ Para o sistema funcionar é necessário colocar a senha do banco de dados no arq
   - Repository: https://github.com/LucasLBB/API-CRUD-CLIENTES
 
  
-## Author
+## Autor
  
 * **Lucas de Lima**: @LucasLBB (https://github.com/LucasLBB)
  
  
-Please follow github and join us!
+Por favor me siga no GitHub e junte-se a mim!
 
-Thanks to visiting me and good coding!
+Obrigado pela visita e bora codar!
 
