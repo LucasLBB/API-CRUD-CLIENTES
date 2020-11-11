@@ -1,6 +1,6 @@
 # API-CRUD-CLIENTES
  
-Está é uma WEB API ASP.NET CORE, que realiza o CRUD de clientes.
+Está é uma WEB API ASP.NET CORE que realiza o CRUD de clientes.
  
 ## Tecnologias
  
