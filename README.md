@@ -2,7 +2,7 @@
  
 Está é uma WEB API ASP.NET CORE, que realiza o CRUD de clientes.
  
-## Tecnologia
+## Tecnologias
  
 Tecnologias utilizadas neste projeto.
  
@@ -22,35 +22,6 @@ Tecnologias utilizadas neste projeto.
 ## Atenção
 
 Para o sistema funcionar é necessário colocar a senha do banco de dados no arquivo appsettings.json(3° linha), caso você utilize o Mysql.
- 
-### 1 - Register
-![Register Screen](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/cadastro.PNG)
- 
-
-### 2 - Log in
-![Login](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/login.PNG)
-
-
-### 3 - Record Expenses 
-![Record Expenses](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/restrito.PNG) 
-
-
-### 4 - Consult Expenses, Change or Delete
-![Consult Expenses](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/consulta.PNG)
-![Consult Expenses](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/gastos.PNG)
-
-
-### 5 - Author
-![Author](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/autor.PNG)
-
-
-### 6 - Help
-![Help](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/ajuda.PNG)
-
-
-### 7 - Contact
-![Contact](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/contato.PNG)
-
 
 ## Características
  
