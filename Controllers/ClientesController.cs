@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using apiCliente.Models;
 using apiCliente.Repositorio;
+using apiCliente.Controllers;
 
 namespace apiCliente.Controllers
 {
+    //Define a url da API
     [Route("api/[Controller]")]
     public class ClientesController : Controller
     {
@@ -16,12 +18,14 @@ namespace apiCliente.Controllers
             _clienteRepositorio = _clienteRepo;
         }
 
+        //Retorna todos os usuários
         [HttpGet]
         public IEnumerable<Cliente> GetAll()
         {
             return _clienteRepositorio.GetAll();
         }
 
+        //Retorna um usuário
         [HttpGet("{id}", Name="GetCliente")]
         public IActionResult GetById(int id)
         {
@@ -32,6 +36,7 @@ namespace apiCliente.Controllers
             return new ObjectResult(cliente);
         }
 
+        //Cria um novo usuário
         [HttpPost]
         public IActionResult Create([FromBody] Cliente cliente) {
             if(cliente == null)
@@ -42,16 +47,17 @@ namespace apiCliente.Controllers
             return CreatedAtRoute("GetCliente", new {id=cliente.id_cliente}, cliente);
         }
 
+        //Atualiza um usuário existente pelo id
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] Cliente cliente)
         {
             if(cliente == null || cliente.id_cliente != id)
-                return BadRequest();
+                return BadRequest(); //Retorna um erro de má requisição
 
             var _cliente = _clienteRepositorio.Find(id);
 
             if(cliente == null )
-                return NotFound();
+                return NotFound(); //Retorna um erro 404 - Not found
 
                 _cliente.nome = cliente.nome;
                 _cliente.telefone = cliente.telefone;
@@ -65,6 +71,7 @@ namespace apiCliente.Controllers
                     return new NoContentResult();
         }
 
+        //Deleta um usuário existente pelo id
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

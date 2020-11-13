@@ -5,6 +5,7 @@ namespace apiCliente.Repositorio
 {
     public interface IClienteRepository
     {
+        //Define os métodos na interface
          void Add(Cliente cliente);
 
          IEnumerable<Cliente> GetAll();

@@ -7,6 +7,7 @@ namespace apiCliente.Models
         public ClienteDbContext(DbContextOptions<ClienteDbContext> options)
             : base(options)
         { }
+        //Recebe a tabela do cliente
         public DbSet<Cliente> tb_cliente { get; set; }
     }
 }

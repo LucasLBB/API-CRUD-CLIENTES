@@ -3,9 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace apiCliente.Models
 {
-    public class Cliente
+    public class Cliente 
     {
         [Key]
+        //Define os campos com o get e set
         public int id_cliente { get; set; }       
         public string nome { get; set; }       
         public int telefone { get; set; }       

@@ -30,6 +30,7 @@ namespace apiCliente
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Define a conexão como padrão
             services.AddDbContext<ClienteDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IClienteRepository,ClienteRepository>();
             services.AddMvc();
